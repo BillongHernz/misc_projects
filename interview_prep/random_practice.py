@@ -25,6 +25,16 @@ def main():
     print(reverse_words_in_sentence("Hello World"))
     print(reverse_words_in_sentence("My name is Yoda and I am a Jedi"))
 
+    print([-1]*9)
+
+    print("rows")
+    for i in range(3):
+        print([3*i + x for x in range(3)])
+
+    print("cols")
+    for i in range(3):
+        print([3 * x + i for x in range(3)])
+
 
 if __name__ == '__main__':
     main()
